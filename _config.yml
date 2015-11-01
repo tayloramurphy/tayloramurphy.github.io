@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://tayloramurphy.github.io
+title: Taylor Murphy
+tagline: The technical blog of Taylor
+description: Technical posts that may be of interest to people who sling data and code. 
+paginate: 10
