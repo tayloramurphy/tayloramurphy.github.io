@@ -13,10 +13,10 @@ Writing also serves a more selfish purpose: by codifying my learnings into words
 Currently, I'm focused solely on Python with a little bit of JavaScript thrown in. I use it almost exclusively for data wrangling right now but I'm looking to expand my repertoire more. If the posts that are to come bore you, then that probably means you're way ahead of me in skill, but if you're learning and still consider yourself towards the beginning of your career, then hopefully you'll feel welcome. 
 
 
-```
+{% highlight python %}
 from brain import knowledge
 
 all_things = str(knowledge.dump())
 
 print('Here goes nothing! {0}'.format(all_things))
-```
+{% endhighlight %}
