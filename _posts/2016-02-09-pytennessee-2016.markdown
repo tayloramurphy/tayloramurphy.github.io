@@ -37,7 +37,7 @@ He then did a short sidenote on verbose mode in python. This can be done by `pyt
 
 The next part started to lose me a little bit. He talked briefly about how much of how a computer works internally is dervied from old teletype machines which had to send commands to and from a server and all you had was, essentially, a keyboard to work with. I'm just going to copy my notes from that as is and if I ever feel inspired I'll look into this more.
 
-{% highlight %}
+{% highlight python linenos %}
 Input/Output
 file descriptor 0 (stdin)
 file descriptor 1 (stdout)
