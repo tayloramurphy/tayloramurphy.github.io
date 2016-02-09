@@ -54,7 +54,7 @@ Overall, it was a very good talk and I do feel like I learned some things.
 ---
 I then attended three talks, one with a guy from NASA which, while it had a cool premise, wasn't terribly interesting. He wasn't the best presenter unfortunately and it took away from the (meager) content. The next talk was about Jupyter Kernels. The speaker was much more engaging and very clearly explained how kernels work behind the scene. It didn't really catch my attention and I just wasn't that interested in it (though the messaging system was cool). The last talk was about elasticsearch but I didn't get as much out of that one as I'd hoped either.
 ---
-### Duck, Duck, Møøse. by Brian Costlow
+### Duck, Duck, Moose. by Brian Costlow
 This was a good talk and my main takeaway is that I think I finally get what duck typing is. Duck typing is based off the quote attributed to James Whitcomb Riley:
 
 > When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.
@@ -86,7 +86,7 @@ def adder (first: int, second: int) -> int:
 
 which just gives more information about type hinting. These can be used in some linters and code editors (but I'm not sure what else you gain by this versus good docstrings).
 
-I also learned about this little tidbit which will allow to get back the stack trace and do whatever you want with it on an error: https://docs.python.org/2/library/sys.html#sys.exc_info
+I also learned about this little tidbit which will allow to get back the stack trace and do whatever you want with it on an error: `https://docs.python.org/2/library/sys.html#sys.exc_info`
 
 Overall, an enjoyable talk with some actionable takeaways.
 
