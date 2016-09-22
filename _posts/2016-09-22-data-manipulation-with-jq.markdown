@@ -2,7 +2,7 @@
 published: true
 title: Data Manipulation with jq
 layout: post
-permalink: data-manipulation-with-jq
+permalink: datajq
 ---
 I had a data maniuplation challenge the other data that I was able to easily solve with the wonderful command line tool `jq`. As described on the [homepage](https://stedolan.github.io/jq/) for jq:
 
