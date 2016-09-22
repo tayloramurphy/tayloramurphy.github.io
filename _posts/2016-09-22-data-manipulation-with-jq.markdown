@@ -63,7 +63,7 @@ With uniqueness guaranteed across the dataset, we're now able to focus on a sing
 jq 'unique_by(.value) | .[]'
 {% endhighlight %}
 
-With that, we're now able to process each object in isolation. The next part I had to do was to take the string from the "value" key and store it into a variable. I figured this out after a lot of trial and error that I was unable to access that value after the next steps. This worked, so I'm going with it. It looks like this:
+With that, we're now able to process each object in isolation. The next part I had to do was to take the string from the "value" key and store it into a variable. I figured this out after a lot of trial and error. In my earlier attempts I was unable to access the value I needed after the following steps. Saving it to a variable worked, so I'm going with it. It looks like this:
 
 {% highlight bash %}
 jq 'unique_by(.value) | .[] | .value as $term'
