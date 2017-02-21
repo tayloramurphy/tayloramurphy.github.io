@@ -4,7 +4,7 @@ title: Creating an Alexa Skill
 layout: post
 permalink: alexagene
 ---
-One of the many great talks I went to at PyTennessee 2017 was Jason Bynum's "Alexa Doesn't Even Have Any Skillz". I opted to go to his talk instead of some potentially more relevant ones (sorry Elasticsearch!) but I'm glad I made that choice.
+One of the many great talks I went to at PyTennessee 2017 was Jason Bynum's ["Alexa Doesn't Even Have Any Skillz"](https://www.pytennessee.org/schedule/presentation/151/). I opted to go to his talk instead of some potentially more relevant ones (sorry Elasticsearch!) but I'm glad I made that choice.
 
 Jason walked us through the basics of setting up an Alexa skill using Python. He then teased us with the promotion Amazon is currently offering, which is a hoodie if you publish a skill before the end of February.
 
@@ -36,7 +36,7 @@ I'm not a Node developer. Technically, I'm not really a Python developer either 
 
 The HGNC API is open and doesn't require any authentication, so it's a quick and easy way to dynamically pull data from the internet. Because I didn't want to deal with user requested data (slots) I stuck with the randomized model of picking data. My initial attempt at the skill would pick a random number between 1 and 20000 and attempt to use that as the HGNC ID. If that wasn't a valid ID, then it returned the information for _BRAF_. This turned out to be an unsatisfying solution because every third request was for _BRAF_.
 
-I then decided to just download the entire protein-coding gene dataset from HGNC and get all the actual IDs. Then at least I wouldn't always be returning BRAF. I saved this into an array and adjusted the gene selector to pick a random number from 0 to the length of the gene_ids array minus 1. This at least was a more valid way of randomly selecting a gene.
+I then decided to just download the entire protein-coding gene dataset from HGNC and get all the actual IDs. Then at least I wouldn't always be returning _BRAF_. I saved this into an array and adjusted the gene selector to pick a random number from 0 to the length of the gene_ids array minus 1. This at least was a more valid way of randomly selecting a gene.
 
 My next struggle was with making an HTTP request in Node. The cool thing about Node is that it's asynchronous by nature. The frustrating thing with Node is that it's asynchronous by nature. I initially had the speech results returning outside the request function because that was the basic format of the initial code. But by doing this I was constantly returning an incomplete sentence that had no data. The final emit statement wasn't waiting for data to be returned from the request.
 
