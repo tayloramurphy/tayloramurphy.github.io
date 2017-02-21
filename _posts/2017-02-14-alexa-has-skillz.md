@@ -4,7 +4,7 @@ title: Creating an Alexa Skill
 layout: post
 permalink: alexagene
 ---
-One of the many great talks I went to at PyTennessee 2017 was Jason Bynum's ["Alexa Doesn't Even Have Any Skillz"](https://www.pytennessee.org/schedule/presentation/151/). I opted to go to his talk instead of some potentially more relevant ones (sorry Elasticsearch!) but I'm glad I made that choice.
+One of the many great talks I went to at PyTennessee 2017 was [Jason Bynum's](https://twitter.com/jasonbynum) ["Alexa Doesn't Even Have Any Skillz"](https://www.pytennessee.org/schedule/presentation/151/). I opted to go to his talk instead of some potentially more relevant ones (sorry Elasticsearch!) but I'm glad I made that choice.
 
 Jason walked us through the basics of setting up an Alexa skill using Python. He then teased us with the promotion Amazon is currently offering, which is a hoodie if you publish a skill before the end of February.
 
